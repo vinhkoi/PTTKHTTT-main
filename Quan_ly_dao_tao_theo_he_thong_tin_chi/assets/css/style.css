@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+body {
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    line-height: 1.80857;
+    background-color: #dde3ec;
+}
+
+html, body{
+	height: 100%;
+}
+
+/*img logo--------------------------------------------------------*/
+
+.img-fluid {
+    max-width: 60%;
+    height: auto;
+}
+
+
+/*------------------------------------------------------------------
+    HEADER
+-------------------------------------------------------------------*/
+.navbar-dark .navbar-brand {
+    color: rgb(2, 0, 0);
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: #000000;
+	letter-spacing: 1px;
+	font-size: 14px;
+	position: relative;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #000000;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+	font-weight: 600;
+}
+.navbar-dark .navbar-nav .nav-link::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	right: 0;
+	text-align: center;
+	margin: 0 auto;
+    border-radius: 0px;
+    z-index: -1;
+}
+.navbar-dark .navbar-nav .nav-link.active::after {
+	width: 50%;
+}
+.text-uppercase{
+    color: rgb(2, 0, 0);
+}
+
+/*------------------------------------------------------------------
+    SECTIONS
+-------------------------------------------------------------------*/
+.main-banner{
+	height: 100%;
+	position: relative;
+	display: table;
+    width: 100%;
+	text-align: center;
+}
+
+.heading{
+	color: rgb(0, 0, 0);
+    margin: auto;
+    justify-content: center;
+    /* padding: 50px; */
+	vertical-align: middle;
+	position: relative;
+	z-index:1;
+}
+.heading h1{
+	color: #000000;
+	font-weight: 600;
+	font-size: 45px;
+    letter-spacing: 6px;
+	text-transform: uppercase;
+}
+.heading p{
+	font-size: 18px;
+	padding: 20px 0px;
+}
+
+.btn-outline-success {
+    align-items: center;
+    color: rgb(1, 0, 0);
+    border-color: dodgerblue;
+}
+.btn-outline-success:hover {
+    background-color:dodgerblue;
+    color: rgb(255, 255, 255);
+   
+}
+
+.btn-outline-success:ac {
+    background-color:dodgerblue;
+    color: rgb(0, 0, 0);
+   
+}
+
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.Login-page{
+    display: none;
+}
+
+small, .small {
+    font-size: 80%;
+    font-weight: 400;
+    white-space: pre-wrap;
+}
+
+.text-muted {
+    color: rgb(0, 0, 0)!important;
+}
+
+
+/*////////////////////////////////FormRegister***********************************/
+.login-page{
+    height: 100%;
+}
+
+.formRegister{
+    margin-top: 10px;
+	font-family: 'Nunito', sans-serif;
+	color: rgb(0, 0, 0);
+	display: table-cell;
+	vertical-align: middle;
+    align-items: center;
+	position: relative;
+	z-index:1;
+}
+h2{
+    margin-bottom: 3.5rem;
+   font-weight: 700;
+	font-size: 40px;
+    letter-spacing: 7px;    
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.formRegister .form-row {
+    width: 30%;
+    margin-left: 35%;
+    align-items: center;
+    display: block;
+}
+
+.formRegister .form-detail .form-row-btn {
+	text-align: center;
+}
+.formRegister .form-detail .input-text {
+	margin-bottom: 20px;
+    
+    position: relative;
+    left: -55px;
+}
+.formRegister .form-detail input {
+    align-items: center;
+	width: 200%;
+    padding: 3px 3px 3px 3px;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #e5e5e5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    border-radius: 3px;
+    color: #333;
+}
+
+.formRegister .form-detail input {
+    align-items: center;
+	width: 200%;
+    padding: 3px 3px 3px 3px;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #e5e5e5;
+    font-size: 16px;
+    border-radius: 3px;
+    color: #333;
+}
+
+/*under line in input*/
+.formRegister .form-detail .form-row input:focus {
+	border-bottom: 3px solid #fe892a;
+}
+
+/*******************Register btn***********************************************/
+.formRegister .form-detail .register {
+	background: #fe892a;
+    text-align: center;
+	border-radius: 6px;
+	width: 150px;
+	border: none;
+	margin: 11px 0 50px 0px;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	font-weight: 700;
+	font-size: 18px;
+    padding: 5px;
+}
+.formRegister .form-detail .register:hover {
+	background: #e37b27;
+}
+
+/* select form************************************************************/
+select {
+    height: 30px;
+    width: 60%;
+    color: black;
+    margin-bottom: 35px;
+    border-radius: 3px;
+}
+.content-login{
+    width: 800px;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    top :60px;
+    padding:0;
+    box-shadow: 0px 0.1875rem 0.4375rem rgb(0 0 0 / 25%);
+}
+.image-content-login{
+    padding:0;
+    width: 100%;
+    height: 100%;
+}
+.signup__overlay img{
+    position: relative;
+    top: 150px;
+
+}
+.text-content-login{
+    position: relative;
+    top: 100px;
+}
+.form-row input{
+    width: 100px;
+}
